@@ -7,5 +7,11 @@ print (2 * 2 + 2)
 print (2 * (2 + 2))
 print ((2 * 2 + 2) == (2 * (2 + 2) ))
 #4th program
-print (float ('123.456'))
-print (int (123.456 * 10))
+number = '123.456'
+print (number)
+number = float (number)
+print (number)
+number = number * 10
+print (number)
+print (int (number))
+print (number % 10)
